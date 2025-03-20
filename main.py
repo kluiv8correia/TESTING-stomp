@@ -12,7 +12,7 @@ class SimpleApp(QWidget):
         self.setGeometry(100, 100, 300, 200)
 
         layout = QVBoxLayout()
-        label = QLabel("Hello, PyQt5!")
+        label = QLabel("Created in develop v1.0-alpha")
         layout.addWidget(label)
 
         self.setLayout(layout)
