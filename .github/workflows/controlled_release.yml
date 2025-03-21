@@ -5,11 +5,11 @@ on:
     types: [opened, reopened]
 
 jobs:
-	build:
-		runs-on: windows-latest
-		steps:
-			- name: Checkout repository
-			uses: actions/checkout@v4
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-			- name: Run a simple script
-			run: echo "Pull request detected! Running worflow..."
+      - name: Run a simple script
+        run: echo "Pull request detected! Running workflow..."
