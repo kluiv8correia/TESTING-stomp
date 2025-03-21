@@ -1,9 +1,8 @@
 name: Controlled Release
 
 on:
-	pull_request:
-		branches:
-			- main
+  pull_request:
+    types: [opened, reopened]
 
 jobs:
 	build:
