@@ -12,7 +12,8 @@ class SimpleApp(QWidget):
         self.setGeometry(100, 100, 300, 200)
 
         layout = QVBoxLayout()
-        label = QLabel("Created in develop v1.0-alpha")
+        label = QLabel(
+            "Testing out controlled release workflow using github actions")
         layout.addWidget(label)
 
         self.setLayout(layout)
